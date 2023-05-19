@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Frag Ingrid",
+    "icon": "./src/assets/icon/app-icon.png",
+    "version": "0.1.0",
+    "slug": "frag-ingrid",
+    "orientation": "portrait",
+    "primaryColor": "#FFF9AD",
+    "ios": {
+      "bundleIdentifier": "com.panthera.fragingrid",
+      "publishBundlePath": "ios/frag-ingrid/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/frag-ingrid/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.panthera.fragingrid",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#FFF9AD"
+    },
+    "splash": {
+      "backgroundColor": "#FFF9AD",
+      "image": "./src/assets/icon/splash.png"
+    },
+    "assetBundlePatterns": [
+      "./src/assets/images/*",
+      "assets/images/*",
+      "/assets/images/*",
+      "/src/assets/images/*",
+      "./src/assets/fonts/*",
+      "assets/fonts/*",
+      "/assets/fonts/*",
+      "/src/assets/fonts/*"
+    ],
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.13.0-sdk35.0.0-a30ebc9b-3db4-42f4-b677-e468076baf18.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v119-sdk35.0.0-6758e9de-1e10-40f8-863d-ec8972895cf1.tar.gz"
+    },
+    "scheme": "exp4b8da7c232c44ab1b488bbcb645908c8",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
